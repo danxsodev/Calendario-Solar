@@ -1,0 +1,59 @@
+:root {
+    font-size: 62.5%; /*1rem = 10px*/
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    font-size: 1.6rem;
+    background: url(/src/assets/roda-da-astrologia-com-signos.jpg) center/cover no-repeat;
+    overflow: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e2e2e2;
+    z-index: 1000;
+}
+
+main {
+    margin-inline: 3rem;
+    margin-block: 2rem;
+}
+
+form {
+    width: 100%;
+    background: transparent;
+    backdrop-filter: blur(1rem);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    border: 0.2rem solid #fffaf0;
+    border-radius: 0.6rem;
+    color: #e2e2e2;
+}
+
+span h3 {
+    font-size: 1.8rem;
+}
+
+div.field {
+    flex-direction: row;
+}
+
+div.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+

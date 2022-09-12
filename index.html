@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubra seu signo de acordo com sua data de nascimento">
+    <meta name="keyworks" content="Data, Nascimento, Aniversario, Signo, Calendario">
+    <meta name="author" content="Danillo Xavier da Silva Oliveira">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Calendario Solar</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calendario Solar</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <span>
+                    <h3>Informe os dados do dia que você nasceu</h3>
+                </span>
+
+                <div class="field">
+                    <label for="day">Informe o dia em que nasceu:</label>
+                    <input type="text" name="dia" id="day" placeholder="Dia em que nasceu">
+                </div>
+
+                <div class="field">
+                    <label for="month">Informe o mês em que nasceu:</label>
+                    <input type="text" name="mes" id="month" placeholder="Mês em que nasceu">
+                </div>
+
+                <div class="field">
+                    <label for="year">Informe o ano em que nasceu:</label>
+                    <input type="text" name="ano" id="year" placeholder="Ano em que nasceu">
+                </div>
+
+                <div class="field">
+                    <label for="month-nasc">O seu mês de nascimento é:</label>
+                    <input type="text" name="mes de nasc" id="month-nasc" placeholder="Seu mês de nascimento" disabled>
+                </div>
+
+                <div class="field">
+                    <label for="day-week-nasc">O dia da semana que você nasceu é:</label>
+                    <input type="text" name="dia da semana" id="day-week-nasc" placeholder="Dia da semana de nascimento" disabled>
+                </div>
+
+                <div class="field">
+                    <label for="sign">Seu signo é:</label>
+                    <input type="text" name="signo" id="sign" placeholder="Signo" disabled>
+                </div>
+
+                <div class="field">
+                    <label for="age">Sua idade é:</label>
+                    <input type="text" name="idade" id="age" placeholder="Idade" disabled>
+                </div>
+
+                <div class="btn">
+                    <input type="button" onclick="Show()" value="Mostrar" id="mostrar">
+                    <input type="reset" onclick="Clear()" value="Limpar" id="limpar">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>  
